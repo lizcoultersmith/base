@@ -6,13 +6,13 @@ body {
 
 header {
     font-family: 'Bree Serif', serif;
- 
-    opacity: 0.4;
+    opacity: 0.3;
     padding-bottom: 20px;
 }
 .circles img {
     width: 200px;
     height: 200px;
+
     border-radius: 200px;
     background: url(images/me_2017bw.jpg) no-repeat;
 }
@@ -52,19 +52,22 @@ header {
     text-decoration: none;
 }
 
-/*
+
 
 .links li a .i {
     font-size: 75px;
     text-decoration: none;
     height: 12px;
     margin-top: 2rem;
+    
 }
-
+a:hover {
+    text-decoration: none;
+}
 ul {
     list-style-type: none;
 }
-*/
+
 .links {
     padding: 0;
     margin: 2rem;
