@@ -4,11 +4,49 @@ body {
     /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
 }
 
+.service-img img:last-child {
+    display: none
+}
+
+.service-img:hover img:first-child {
+    display: none
+}
+
+.service-img:hover img:last-child {
+    display: inline-block
+}
+
 h1 {
     font-family: 'Bree Serif', serif;
     display: inline;
     opacity: 0.2;
     padding-bottom: 20 px;
+}
+
+.circles img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: url(images/me_2017bw.jpg) no-repeat;
+}
+
+.circles {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hover_img a {
+    position: relative;
+}
+
+.hover_img a span {
+    position: absolute;
+    display: none;
+    z-index: 99;
+}
+
+.hover_img a:hover span {
+    display: block;
 }
 
 /*
@@ -37,6 +75,7 @@ ul {
     opacity: 0.2;
     padding: 1rem
 }
+
 /*
 .links li:hover {
     opacity: 2;
@@ -51,3 +90,4 @@ ul {
     text-decoration: none;
     height: 12px;
 }
+*/
