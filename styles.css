@@ -20,6 +20,7 @@ header {
 .circles {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    transition: opacity .25s ease-in-out;
 }
 
 .btn-get-resume .btn {
