@@ -4,17 +4,11 @@ body {
     /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
 }
 
-header h1 {
+header {
     font-family: 'Bree Serif', serif;
-    display: inline;
-
-    padding-bottom: 20 px;
-}
-h4 {
-    font-family: 'Bree Serif', serif;
-    display: inline;
-    opacity: 0.2;
-    padding-bottom: 20 px;
+ 
+    opacity: 0.4;
+    padding-bottom: 20px;
 }
 .circles img {
     width: 200px;
