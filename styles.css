@@ -4,18 +4,6 @@ body {
     /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
 }
 
-.service-img img:last-child {
-    display: none
-}
-
-.service-img:hover img:first-child {
-    display: none
-}
-
-.service-img:hover img:last-child {
-    display: inline-block
-}
-
 h1 {
     font-family: 'Bree Serif', serif;
     display: inline;
@@ -26,7 +14,7 @@ h1 {
 .circles img {
     width: 200px;
     height: 200px;
-    border-radius: 100px;
+    border-radius: 200px;
     background: url(images/me_2017bw.jpg) no-repeat;
 }
 
@@ -34,6 +22,37 @@ h1 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.btn-get-resume .btn {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    color: rgb(32, 120, 178);
+
+
+
+}
+
+.btn-get-resume:hover {
+    opacity: 0.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(242, 243, 247);
+    border: 1px solid;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
 /*
 
 .links li a .i {

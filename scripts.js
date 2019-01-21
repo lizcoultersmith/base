@@ -8,7 +8,7 @@ function changePic() {
   function normalPic() {
     document.getElementById("profilePic").src = "images/me_2017bw.jpg";
   }
-/*
+
 
 $(".go-to-contact").click(function() {
     $('html, body').animate({
@@ -16,7 +16,7 @@ $(".go-to-contact").click(function() {
     }, 1000);
 });
 
-
+/*
 
 
 function changePic() {
