@@ -10,9 +10,9 @@ header {
     padding-bottom: 15px;
 }
 .circles img {
-    width: 180px;
-    height: 180px;
-    border-radius: 180px;
+    width: auto;
+    height: auto;
+    border-radius: 100%;
     background: url(images/me_2017bw.jpg) no-repeat;
 }
 
