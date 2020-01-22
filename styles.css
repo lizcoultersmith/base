@@ -10,9 +10,9 @@ header {
     padding-bottom: 15px;
 }
 .circles img {
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
+    width: 180px;
+    height: 180px;
+    border-radius: 180px;
     background: url(images/me_2017bw.jpg) no-repeat;
 }
 
@@ -24,9 +24,9 @@ header {
 
 .btn-get-resume .btn {
     font-size: 1.3rem;
-    opacity: 1;
+    opacity: .75;
     transition: opacity .25s ease-in-out;
-    color: rgb(32, 120, 178);
+    color: rgb(33, 33, 139);
     font-family: sans-serif;
 }
 
@@ -51,7 +51,7 @@ header {
     text-decoration: none;
 }
 h3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     text-decoration: none;
 }
 h3:hover {
