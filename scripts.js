@@ -6,7 +6,7 @@ function changePic() {
   }
   
   function normalPic() {
-    document.getElementById("profilePic").src = "images/me_2017bw.jpg";
+    document.getElementById("profilePic").src = "images/me-liz.jpg";
   }
 
 
