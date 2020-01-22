@@ -1,7 +1,7 @@
 body {
     /*color: #fff;*/
     text-align: center;
-    /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+    text-shadow: 0 1px 0px rgba(0,0,0,.5);
 }
 
 header {
@@ -23,6 +23,7 @@ header {
 }
 
 .btn-get-resume .btn {
+    font-size: 1.3rem;
     opacity: 1;
     transition: opacity .25s ease-in-out;
     color: rgb(32, 120, 178);
@@ -50,15 +51,21 @@ header {
     text-decoration: none;
 }
 h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+h3:hover {
+    text-decoration: none;
 }
 h4 {
     font-size: 1.5rem;
-    color: rgb(72, 72, 78);
+    color: rgb(33, 33, 139);
+    
 }
 i {
 padding: 15px;
 font-family: sans-serif;
+color: rgb(33, 33, 139);
 
 }
 .links li a .i {
@@ -67,7 +74,7 @@ font-family: sans-serif;
     height: 10px;
     margin-top: 1rem;
     
-    
+
 }
 a:hover {
     text-decoration: none;
@@ -76,32 +83,15 @@ ul {
     list-style-type: none;
 }
 
-.links {
-    padding: 0;
-    margin: 2rem;
-    white-space: nowrap;
-    list-style-type: none;
-
-}
-
 .links li {
     display: inline;
+    padding: 0;
+    margin: 2 rem;
+    white-space: nowrap;
+    list-style-type: none;
     opacity: 0.2;
     padding: 1 rem;
 }
-
-/*
 .links li:hover {
     opacity: 2;
 }
-
-.links li img {
-    width: 75px;
-}
-
-.links li a {
-    font-size: 75px;
-    text-decoration: none;
-    height: 12px;
-}
-*/
